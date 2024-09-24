@@ -65,24 +65,3 @@ class CareersPage(BasePage):
 
         # Return True if all blocks are visible, otherwise return False.
         return all(visibility_results)
-
-    """def are_blocks_visible(self):
-        
-        #Check if the required blocks on the Careers page are visible.
-
-        #:return: True if all specified blocks are visible, False otherwise.
-        
-        blocks = {
-            'Teams Block': self.locators.TEAMS_BLOCK,
-            'Locations Block': self.locators.LOCATIONS_BLOCK,
-            'Life Block': self.locators.LIFE_BLOCK
-        }
-
-        # Check visibility of all blocks and log if any block is not visible.
-        visibility_results = [
-            self.is_element_visible(locator) or self.logger.error(f"{name} is not visible.")
-            for name, locator in blocks.items()
-        ]
-
-        # Return True if all blocks are visible, otherwise return False.
-        return all(visibility_results)"""
