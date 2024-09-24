@@ -23,5 +23,6 @@ class JobPageLocators:
         "VIEW_ROLE":VIEW_ROLE,
         "POSITION_LIST":POSITION_LIST,
         "FIRST_POSITION":FIRST_POSITION,
+        "QA_POSITION":QA_POSITION,
     }
 
