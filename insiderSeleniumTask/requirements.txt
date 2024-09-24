@@ -1,0 +1,4 @@
+selenium==4.25.0
+pip==24.2
+
+webdriver-manager~=4.0.2
